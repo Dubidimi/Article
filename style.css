@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Manrope;
+}
+body {
+    background-color: #edf2f8;
+}
+.container {
+    margin-top: 150px;
+    margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    padding: 0px;
+    background-color: #ffffff;
+    border-radius: 1rem;
+    width: 1000px;
+    height: 340px;
+    -moz-box-shadow: 0px 20px 20px #00000035;
+    -webkit-box-shadow: 0px 20px 20px #00000035;
+    box-shadow: 0px 20px 20px #00000035;
+}
+#drawers {
+    width: fit-content;
+    height: 340px;
+    float: left;
+    border-top-left-radius: 1rem ;
+    border-bottom-left-radius: 1rem;
+    margin-right: 30px;
+}
+.txt h1 {
+    padding: 30px 30px 10px 30px;
+    font-size: 28px;
+    color: #576271;
+}
+.txt {
+    display: block;
+    width: 1000px;
+    margin-right: 60px;
+}
+#description {
+    color: #576271;
+    font-weight: 400;
+    padding-right: 30px;
+}
+
+#avatar {
+    float: inline-start;
+    border-radius: 50%;
+    width: 50px;
+    margin-top: 30px;
+    margin-right: 10px;
+}
+h2 {
+    padding-top: 40px;
+    font-size: small;
+    color: #49556b;
+    margin: 0;
+    width: fit;
+}
+#date {
+    font-weight: 200;
+    color: #576271;
+    margin: 0;
+}
+button {
+    float: inline-end;
+    width: fit-content;
+    border: none;
+    margin: 35px 30px 0px 0px;
+    padding: 10px;
+    background-color: #ecf1f7;
+    border-radius: 50%;
+    cursor: pointer;
+}
+#share {
+    width: 20px;
+
+}
+#sharebox {
+    display: none;
+    position: absolute;
+    right: 10%;
+    top: 45%;
+    background-color: #49556b;
+    width: 250px;
+    border-radius: .5rem;
+    padding: 20px;
+    align-items: center;
+    padding: 10px 20px;
+    -moz-box-shadow: 0px 10px 10px #00000035;
+    -webkit-box-shadow: 0px 10px 10px #00000035;
+    box-shadow: 0px 10px 10px #00000035;
+}
+#sharebox img {
+    padding-left: 20px;
+    padding-top: 10px;
+    cursor: pointer;
+}
+#sharebox h3 {
+    float: inline-start;
+    font-weight: 200;
+    text-transform: uppercase;
+    color: white;
+    letter-spacing: 5px;
+    font-size: medium;
+    padding: 10px 20px;
+}
